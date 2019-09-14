@@ -1,0 +1,84 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: azure;
+}
+
+nav img {
+    width: 10%;
+    height: 100%;
+}
+
+nav div a:hover {
+    color: darkblue;
+}
+
+nav div a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+nav div.menu {
+    display: none;
+}
+
+nav div.menu1 {
+    display: block;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+}
+
+div p:first-child {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+div p:last-of-type {
+    font-size: 50px !important;
+    margin-top: 0;
+}
+
+#contenedorGeneral {
+    height: 75vh;
+    background-image: url(../images/fondoban.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textosBotones {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.colorRojo {
+    color: red;
+}
+
+.menu {
+    width: 5%;
+}
+
+.imgMenu {
+    width: 100%;
+}
+
+@media only screen and (max-width: 650px) {
+    nav div.menu {
+        display: block;
+    }
+
+    nav div.menu1 {
+        display: none;
+    }
+}
